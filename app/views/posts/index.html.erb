@@ -1,0 +1,22 @@
+<%=form_tag("/posts/create") do%>
+<input type="text" name="word" placeholder="単語を入力">
+<input type="text" name="meaning" placeholder="意味を入力">
+<input type="submit" value="送信">
+<% end %>
+<% if @error_message%>
+ <div class="form-error">
+  <%= @error_message%>
+ </div>
+<%end%>
+<div class="container">
+  <% @words.each do |i| %>
+    <div class=post-index-word>
+      <%=i.word%>
+      <%=i.meaning%>
+      <%=link_to("〇","/posts/correct",{method:"post"})%>
+      <%=link_to("×","/posts/mistake",{method:"post"})%>
+      <%=link_to("削除","/posts/#{i.id}/destroy",{method:"post"})%>
+    </div>
+  <% end %>
+  <a href="/">入力画面に戻る</a>
+</div>

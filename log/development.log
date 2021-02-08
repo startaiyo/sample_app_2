@@ -1,0 +1,2508 @@
+Started GET "/" for ::1 at 2021-02-07 18:30:57 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (16.6ms)
+Completed 200 OK in 92ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-07 19:27:39 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-07 22:06:33 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1146ms (Views: 1142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-07 22:07:42 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 53ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:4
+  [1m[35m (26.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (16.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateWords (20210207131541)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "words" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "word" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210207131541_create_words.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210207131541"]]
+  ↳ bin/rails:4
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-07 13:16:07.305891"], ["updated_at", "2021-02-07 13:16:07.305891"]]
+  ↳ bin/rails:4
+  [1m[35m (14.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2021-02-07 22:32:35 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 125ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-07 22:32:37 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-08 06:35:18 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 188ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 06:41:38 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 82ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mistake" for ::1 at 2021-02-08 06:41:40 +0900
+Processing by HomeController#mistake as HTML
+  Rendering home/mistake.html.erb within layouts/application
+  Rendered home/mistake.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 65ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mWord Create (3.8ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["word", "become"], ["created_at", "2021-02-07 21:50:57.500500"], ["updated_at", "2021-02-07 21:50:57.500500"]]
+  [1m[35m (18.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2021-02-08 07:01:42 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 459ms (Views: 443.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 07:22:35 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 61ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 07:23:17 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 81ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:23:18 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:1
+  Rendered posts/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 88ms (Views: 72.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-08 07:23:41 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 07:24:34 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:24:36 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:1
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 58ms (Views: 48.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 07:25:13 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Y8jDJOZXo6J71tM+4QCnZAbqeih3Dr0Kj6j5p0gzXevZc4R7veSSXWLX8lumfcRqLchBEPrJyO+xIh+5neyqQ==", "word"=>"order"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.7ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-07 22:25:13.858238"], ["updated_at", "2021-02-07 22:25:13.858238"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (18.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 07:25:13 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:25:15 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:1
+  Rendered posts/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:30:48 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:1
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:33:36 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 66ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 07:33:39 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-08 07:33:45 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mistake" for ::1 at 2021-02-08 07:33:48 +0900
+Processing by HomeController#mistake as HTML
+  Rendering home/mistake.html.erb within layouts/application
+  Rendered home/mistake.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 07:33:50 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 62ms (Views: 57.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mistake" for ::1 at 2021-02-08 08:32:22 +0900
+Processing by HomeController#mistake as HTML
+  Rendering home/mistake.html.erb within layouts/application
+  Rendered home/mistake.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 08:32:43 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 08:32:44 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 53ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 08:35:37 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to AddMeaningToWords (20210207234459)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to AddMeaningToWords (20210207234459)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (2.5ms)[0m  [1m[35mALTER TABLE "words" ADD "meaning" varchar[0m
+  ↳ db/migrate/20210207234459_add_meaning_to_words.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210207234459"]]
+  ↳ bin/rails:4
+  [1m[35m (14.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2021-02-08 08:53:47 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 76ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 08:54:02 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lP+/qIOu05LjyKe3YmlzuLDfaRVrhNE5X6XSwymqBBPWFVK1/sAfVR+sozL3dIY0iHPh+YmzzO7LX/lbUv17zQ==", "word"=>"boy", "meaning"=>"男の子"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.4ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "boy"], ["created_at", "2021-02-07 23:54:02.732125"], ["updated_at", "2021-02-07 23:54:02.732125"], ["meaning", "男の子"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (16.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 39ms (ActiveRecord: 20.1ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 08:54:02 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 08:54:04 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 55ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 08:54:24 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-08 08:54:27 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mistake" for ::1 at 2021-02-08 08:54:29 +0900
+Processing by HomeController#mistake as HTML
+  Rendering home/mistake.html.erb within layouts/application
+  Rendered home/mistake.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:06:19 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:06:21 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (35.5ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    4:     <div class=post-index-word>
+    5:       <%=i.word%>
+    6:       <%=i.meaning%>
+    7:       <%=link_to("削除","/posts/#{@word.id}/destroy",{method:post})%>
+    8:     </div>
+    9:   <% end %>
+   10: </div>
+  
+app/views/posts/index.html.erb:7:in `block in _app_views_posts_index_html_erb__175493422_119279800'
+app/views/posts/index.html.erb:3:in `_app_views_posts_index_html_erb__175493422_119279800'
+Started GET "/posts/index" for ::1 at 2021-02-08 09:08:41 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (1.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (246.9ms)
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x000000000e3819c8>:0x000000000ef749b0>):
+    4:     <div class=post-index-word>
+    5:       <%=i.word%>
+    6:       <%=i.meaning%>
+    7:       <%=link_to("削除","/posts/#{i.id}/destroy",{method:post})%>
+    8:     </div>
+    9:   <% end %>
+   10: </div>
+  
+app/views/posts/index.html.erb:7:in `block in _app_views_posts_index_html_erb__175493422_125544860'
+app/views/posts/index.html.erb:3:in `_app_views_posts_index_html_erb__175493422_125544860'
+Started GET "/posts/index" for ::1 at 2021-02-08 09:09:04 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (295.9ms)
+Completed 500 Internal Server Error in 318ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x000000000e3819c8>:0x000000000e5f1690>):
+    4:     <div class=post-index-word>
+    5:       <%=i.word%>
+    6:       <%=i.meaning%>
+    7:       <%=link_to("削除","/posts/i.id/destroy",{method:post})%>
+    8:     </div>
+    9:   <% end %>
+   10: </div>
+  
+app/views/posts/index.html.erb:7:in `block in _app_views_posts_index_html_erb__175493422_120557460'
+app/views/posts/index.html.erb:3:in `_app_views_posts_index_html_erb__175493422_120557460'
+Started GET "/posts/index" for ::1 at 2021-02-08 09:11:22 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 66ms (Views: 52.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:11:25 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:12:33 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:12:50 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-02-08 09:12:52 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:12:55 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:14:43 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:17:23 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/i.id/destroy" for ::1 at 2021-02-08 09:17:39 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/posts/i.id/destroy"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/index" for ::1 at 2021-02-08 09:18:12 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 2.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    4:     <div class=post-index-word>
+    5:       <%=i.word%>
+    6:       <%=i.meaning%>
+    7:       <%=link_to("削除","/posts/#{@word.id}/destroy",{method:"post"})%>
+    8:     </div>
+    9:   <% end %>
+   10: </div>
+  
+app/views/posts/index.html.erb:7:in `block in _app_views_posts_index_html_erb__175493422_118216440'
+app/views/posts/index.html.erb:3:in `_app_views_posts_index_html_erb__175493422_118216440'
+Started GET "/posts/index" for ::1 at 2021-02-08 09:18:24 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 50.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/3/destroy" for ::1 at 2021-02-08 09:18:26 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"3"}
+  [1m[36mWord Load (0.6ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (7.1ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (17.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 24.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2: <div class="container">
+    3:   <% @words.each do |i| %>
+    4:     <div class=post-index-word>
+    5:       <%=i.word%>
+    6:       <%=i.meaning%>
+  
+app/views/posts/index.html.erb:3:in `_app_views_posts_index_html_erb__175493422_127013840'
+app/controllers/posts_controller.rb:15:in `destroy'
+Started POST "/posts/3/destroy" for ::1 at 2021-02-08 09:19:42 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"3"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/posts_controller.rb:14:in `destroy'
+Started POST "/posts/3/destroy" for ::1 at 2021-02-08 09:20:51 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"3"}
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/posts_controller.rb:14:in `destroy'
+Started POST "/posts/3/destroy" for ::1 at 2021-02-08 09:20:56 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"3"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/posts_controller.rb:14:in `destroy'
+Started POST "/posts/3/destroy" for ::1 at 2021-02-08 09:22:56 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"3"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/posts_controller.rb:14:in `destroy'
+Started POST "/posts/1/destroy" for ::1 at 2021-02-08 09:23:00 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ysU6a1L5sYfwhEdqErK6e8l0eCgCoXnXhmHRuf80i7WIL9d2L5d9QAzgQ++Hr0/38djwxOCWZAASm/ohhGP0aw==", "id"=>"1"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (7.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (17.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 43ms (ActiveRecord: 25.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:23:00 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 67ms (Views: 63.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/2/destroy" for ::1 at 2021-02-08 09:23:02 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CbihcHk3bG0cJoj5YR5ayq68CfBNBgrrCMxPxjfuwdxLUkxtBFmgquBCjHz0A69GlhCBHK8xFzycNmReTLm+Ag==", "id"=>"2"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (6.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (15.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 37ms (ActiveRecord: 22.7ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:23:02 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 54ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:23:11 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:23:23 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXUKhgWUdDyTY9RM+vKNwpbC15bjVXSl5KZgOKaRHyoE2K7akdqfGSB8WewLx0JdGTCQdcSoBc2c6SCZN+HKIg==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.1ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 00:23:23.882522"], ["updated_at", "2021-02-08 00:23:23.882522"], ["meaning", "命令する"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (17.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:23:23 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:23:25 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 54ms (Views: 49.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/4/destroy" for ::1 at 2021-02-08 09:23:27 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AX25Q3jFlzrB0pJKt00RB73Q0GYa4x4zcuPsHpU+0cJDl1ReBatb/T22ls8iUOSLhXxYivjUA+TmGceG7mmuHA==", "id"=>"4"}
+  [1m[36mWord Load (1.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (6.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (19.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 44ms (ActiveRecord: 27.6ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:23:27 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 62ms (Views: 57.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:23:30 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:24:30 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:24:36 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"alil0FqX6oHrSQAW/SxmHRwnG/x2yMo0B0hhGH14+nMoskjNJ/kmRhctBJNoMZORJIuTEJT/1+OTskqABi+FrQ==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.5ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 00:24:36.477722"], ["updated_at", "2021-02-08 00:24:36.477722"], ["meaning", "命令する"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (17.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 18.9ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:24:36 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:24:38 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 61ms (Views: 47.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:24:40 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:24:41 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 61ms (Views: 56.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:24:43 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:25:05 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yApbE415G8qmNYaGJaNIqchlRNxZcos6Puq2s3l6H3RNp/9PGTfw7xUqCybUloc2R5cDP36P+lJGpfYS6ArKfA==", "word"=>"yabai", "meaning"=>"やばい"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.1ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "yabai"], ["created_at", "2021-02-08 00:25:05.909028"], ["updated_at", "2021-02-08 00:25:05.909028"], ["meaning", "やばい"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (16.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 17.8ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:25:05 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:25:07 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 48ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts/6/destroy" for ::1 at 2021-02-08 09:25:08 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OZ/KDLH/8zgkjir/gp9Th/cIxZE0CBFEqr4uD+lLWLN7dScRzJE//9jqLnoXgqYLz6RNfdY/DJM+RAWXkhwnbQ==", "id"=>"6"}
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (7.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (19.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 40ms (ActiveRecord: 27.6ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:25:09 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/5/destroy" for ::1 at 2021-02-08 09:25:10 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"w7HTu3/zsanX8WIqS57vjTqIjGYNuaFuNUgtcQYpXlaBWz6mAp19biuVZq/egxoBAiQEiu+OvLmhsgbpfX4hiA==", "id"=>"5"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[36mWord Destroy (8.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/posts_controller.rb:14
+  [1m[35m (16.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:14
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 41ms (ActiveRecord: 25.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:25:10 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:25:12 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-08 09:25:16 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  Rendered home/correct.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:25:35 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 186ms (Views: 172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:35:38 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:35:43 +0900
+  
+SyntaxError (C:/Users/shotaro/sample_app_2/app/controllers/posts_controller.rb:21: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/posts_controller.rb:21: syntax error, unexpected end-of-input, expecting end
+Started POST "/posts/create" for ::1 at 2021-02-08 09:35:59 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aFlX22q+wpB/BxYtbLEbPzdMMtV7GP+WxFXJH9Bc8l4qs7rGF9AOV4NjEqj5rO6zD+C6OZkv4kFQr+KHqwuNgA==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 00:35:59.173198"], ["updated_at", "2021-02-08 00:35:59.173198"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:35:59 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:36:02 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:36:10 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CfHPmyEahNJ+MgmuEJuM6MYn4Ntfs950+2fVlVXQ4tlLGyKGXHRIFYJWDSuFhnlk/otoN72Ew6Nvnf4NLoedBw==", "word"=>"boy", "meaning"=>""}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "boy"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.4ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "boy"], ["created_at", "2021-02-08 00:36:11.003282"], ["updated_at", "2021-02-08 00:36:11.003282"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (18.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 20.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:36:11 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:36:20 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ESccoq8HiBzKSWRrqIYaAQT4CsHGBrHz49iDY2Nd54xTzfG/0mlE2zYtYO49m++NPFSCLSQxrCR3Iqj7GAqYUg==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:36:20 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 79ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:36:22 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:36:37 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:38:44 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 60ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:38:50 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SR/iJYPLkXCiMJVP3YYGxPi+GRklxKUWxRR61EmeeB4L9Q84/qVdt15UkcpIm/NIwBKR9cfzuMFR7lFMMskHwA==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:38:51 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 59ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 09:38:52 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:39:56 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:40:01 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/fGbUstA8T2VQeX2XSbS837lxwHez4HgBav8tYpRVuF4XD8OXw4aGCZeaFasEx1s8ReA4vky8Ih95LwUGyGD6Q==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:40:01 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:41:34 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 74ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 09:41:38 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IPflR3kdAqhrqCTB1OgXtBX+swgLt8n9GUBf9Lpix51iHQhaBHPOb5fMIERB9eI4LVI75OmA1CqNunRswTW4Qw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 22ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 09:41:38 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 19:53:43 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RpxAX4DS2K7/ZlMkqfBwmBQmx7dbIV+CrcuXAyxedKwEdq1C/bwUaQMCV6E87YUULIpPW7kWQlU5MbybVwkLcg==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 19:53:43 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 155ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 19:53:46 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 56ms (Views: 43.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 19:53:48 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 19:53:54 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SRtVdoaFOPDX6aQoBABg7iWLUBuVX+gu0AIDQ069gCHMtvEqEsvT1WT2KYj1Na9xqnkX+LKimUaoTUPi381VKQ==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 19:53:54 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 19:53:56 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/7/destroy" for ::1 at 2021-02-08 19:53:58 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GnLf1f0NqpCUgun75u3cd4AzJEk3ky8icKeWs7CHsT5YmDLIgGNmV2jm7X5z8Cn7uJ+spdWkMvXkXb0ry9DO4A==", "id"=>"7"}
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (7.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (18.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 39ms (ActiveRecord: 26.1ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 19:53:58 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 67ms (Views: 62.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 19:53:59 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 19:54:04 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zYJWgRP6w5TncODN7IVAYBjnGrOqEcAu5xsWpfEaa6dIL/Ldh7QosVRvbW0dsI//lxVdUI3ssUafVFYEYGq+rw==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 10:54:04.500130"], ["updated_at", "2021-02-08 10:54:04.500130"], ["meaning", "命令する"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (15.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 19:54:04 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 19:54:06 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 20:33:26 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:7: syntax error, unexpected ')', expecting then or ';' or '\n'
+...fer.append=( if @error_message);@output_buffer.safe_append='
+...                              ^
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:11: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:16: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:18: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/home/top.html.erb:7: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/home/top.html.erb:11: syntax error, unexpected end, expecting ')'
+app/views/home/top.html.erb:16: syntax error, unexpected ensure, expecting ')'
+app/views/home/top.html.erb:18: syntax error, unexpected end, expecting ')'
+Started GET "/posts/index" for ::1 at 2021-02-08 20:33:33 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 139ms (Views: 92.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 20:33:35 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:7: syntax error, unexpected ')', expecting then or ';' or '\n'
+...fer.append=( if @error_message);@output_buffer.safe_append='
+...                              ^
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:11: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:16: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+C:/Users/shotaro/sample_app_2/app/views/home/top.html.erb:18: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/home/top.html.erb:7: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/home/top.html.erb:11: syntax error, unexpected end, expecting ')'
+app/views/home/top.html.erb:16: syntax error, unexpected ensure, expecting ')'
+app/views/home/top.html.erb:18: syntax error, unexpected end, expecting ')'
+Started GET "/" for ::1 at 2021-02-08 20:33:43 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:33:46 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7w7ynGwi4WonQeR280UfJC2/k0bBgXTWK7K4zxRbzret5B+BEUwtrdsl4PNmWOqoFRMbqiO2aQG/SJNXbwyxaQ==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 20:33:47 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 20:45:07 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 96ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:45:09 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 57ms (Views: 44.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:45:14 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F4Bdg+dV3YgzSc1jI556TCwFFvnVJlZrn4VFPg38o12SLfnfcxs2rYBWQMPSq7XTo/dRGvLbJwPnygWfnIx2VQ==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 20:45:14 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:45:17 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:45:56 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 68ms (Views: 56.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:45:58 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:46:01 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"scwuEIhuB9obPAy5AVGMOrNs8N9P6Jq7sRwPco+DGlDzJsMN9QDLHedYCDyUTHm2i8B4M63fh2wl5iTq9NRljg==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:46:01 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:46:42 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 81ms (Views: 65.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:46:45 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KkkMw8YVIIdUoh/Xe8+T+Ve11QCOUMIMGoMcC5nWHFVoo+Heu3vsQKjGG1Lu0mZ1bxld7Gxn39uOeTeT4oFjiw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 16ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:46:45 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (1.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 54ms (Views: 49.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:51:43 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 64ms (Views: 54.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:51:47 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+9GOTIkrcNS8eIRU9nlc8b/K/qsdxe3Ls/EziCdDwTS5O2NR9EW8E0AcgNFjZKl9h2Z2R//y8BwnCxgQXBS+6g==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:  </div>
+    10: <%end%>
+    11: <div class="container">
+    12:   <% @words.each do |i| %>
+    13:     <div class=post-index-word>
+    14:       <%=i.word%>
+    15:       <%=i.meaning%>
+  
+app/views/posts/index.html.erb:12:in `_app_views_posts_index_html_erb__175493422_123844760'
+app/controllers/posts_controller.rb:12:in `create'
+Started POST "/posts/create" for ::1 at 2021-02-08 20:52:14 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+9GOTIkrcNS8eIRU9nlc8b/K/qsdxe3Ls/EziCdDwTS5O2NR9EW8E0AcgNFjZKl9h2Z2R//y8BwnCxgQXBS+6g==", "word"=>"create", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "create"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "create"], ["created_at", "2021-02-08 11:52:14.627391"], ["updated_at", "2021-02-08 11:52:14.627391"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (19.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 36ms (ActiveRecord: 21.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:52:14 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 55ms (Views: 51.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:54:42 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 64ms (Views: 54.9ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:54:46 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"izON5vLoYsBVmst8PKuTP+x75p7aSMBAYDCYmMKP4A/J2WD7j4auB6n+z/mptmaz1Nducjh/3Zf0yrMAudif0Q==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:  </div>
+    10: <%end%>
+    11: <div class="container">
+    12:   <% @words.each do |i| %>
+    13:     <div class=post-index-word>
+    14:       <%=i.word%>
+    15:       <%=i.meaning%>
+  
+app/views/posts/index.html.erb:12:in `_app_views_posts_index_html_erb__175493422_125762460'
+app/controllers/posts_controller.rb:12:in `create'
+Started POST "/posts/create" for ::1 at 2021-02-08 20:58:02 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"izON5vLoYsBVmst8PKuTP+x75p7aSMBAYDCYmMKP4A/J2WD7j4auB6n+z/mptmaz1Nducjh/3Zf0yrMAudif0Q==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:  </div>
+    10: <%end%>
+    11: <div class="container">
+    12:   <% @words.each do |i| %>
+    13:     <div class=post-index-word>
+    14:       <%=i.word%>
+    15:       <%=i.meaning%>
+  
+app/views/posts/index.html.erb:12:in `_app_views_posts_index_html_erb__175493422_121117460'
+app/controllers/posts_controller.rb:12:in `create'
+Started POST "/posts/create" for ::1 at 2021-02-08 20:59:53 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"izON5vLoYsBVmst8PKuTP+x75p7aSMBAYDCYmMKP4A/J2WD7j4auB6n+z/mptmaz1Nducjh/3Zf0yrMAudif0Q==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 19ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:59:53 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 56ms (Views: 51.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 20:59:58 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i+sdgf2fX3BeJDJntrz6SusuKRMhs0f0pqlIumbBY/TJAfCcgPGTt6JANuIjoQ/G04Kh/8OEWiMyU2MiHZYcKg==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 17ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 20:59:58 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 56ms (Views: 51.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:00:03 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3zAgitAuTODt5qK4pedDLmLrujkWqKlpov8QSAhJqrud2s2XrUCAJxGCpj0w+raiWkcy1fSftL42BTvQcx7VZQ==", "word"=>"yabai", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "yabai"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "yabai"], ["created_at", "2021-02-08 12:00:03.795096"], ["updated_at", "2021-02-08 12:00:03.795096"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (17.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 37ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:00:03 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 49ms (Views: 45.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/11/destroy" for ::1 at 2021-02-08 21:00:07 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jAZ5tBJmue98aasbakSHDYHnd3EzVILe6JXA6kNVu+LO7JSpbwh1KIANr57/WXKBuUv/ndFjnwl8b+tyOALEPA==", "id"=>"11"}
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (1.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 11]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (17.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 34ms (ActiveRecord: 18.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:00:07 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:02:22 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RapM7FGysE7W+rfECbD8m4lpFntMeX3ZaTZLDO+OfnwHQKHxLNx8iSqes0GcrQkXscWel65OYA79zGCUlNkBog==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 164ms (ActiveRecord: 1.5ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:02:29 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RapM7FGysE7W+rfECbD8m4lpFntMeX3ZaTZLDO+OfnwHQKHxLNx8iSqes0GcrQkXscWel65OYA79zGCUlNkBog==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:02:31 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RapM7FGysE7W+rfECbD8m4lpFntMeX3ZaTZLDO+OfnwHQKHxLNx8iSqes0GcrQkXscWel65OYA79zGCUlNkBog==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 150ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:02:43 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RapM7FGysE7W+rfECbD8m4lpFntMeX3ZaTZLDO+OfnwHQKHxLNx8iSqes0GcrQkXscWel65OYA79zGCUlNkBog==", "word"=>"tano", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "tano"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "tano"], ["created_at", "2021-02-08 12:02:43.835909"], ["updated_at", "2021-02-08 12:02:43.835909"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (16.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 169ms (ActiveRecord: 18.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:02:45 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RapM7FGysE7W+rfECbD8m4lpFntMeX3ZaTZLDO+OfnwHQKHxLNx8iSqes0GcrQkXscWel65OYA79zGCUlNkBog==", "word"=>"tano", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "tano"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:10 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 61ms (Views: 51.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/posts/12/destroy" for ::1 at 2021-02-08 21:03:13 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"j7tBPvS57uWrZaNCjddFeSsU6k4d3sjWcKGVfQSx10jNUawjidciIlcBp8cYyrD1E7hiov/p1QHkW77lf+aolg==", "id"=>"12"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (7.2ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 12]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (18.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 38ms (ActiveRecord: 25.8ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:13 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/10/destroy" for ::1 at 2021-02-08 21:03:14 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BCqK/M8rljJuV8JM5P9ln/2FTucy6kx0YB6rieOmOqJGwGfhskVa9ZIzxslx4pATxSnGC9DdUaP05IARmPFFfA==", "id"=>"10"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (7.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 10]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (24.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 46ms (ActiveRecord: 32.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:14 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 71ms (Views: 66.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/9/destroy" for ::1 at 2021-02-08 21:03:14 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FTvWN0U0FhnNPPFajGh8oUokIMAPJG5pBJhciEWKnohX0TsqOFra3jFY9d8ZdYktcoioLO0Tc76QYncQPt3hVg==", "id"=>"9"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (6.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (16.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 39ms (ActiveRecord: 23.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:14 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 53ms (Views: 49.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/8/destroy" for ::1 at 2021-02-08 21:03:15 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sMpTi8Q/Gz08Cxs567LnGIU6iaUSfIunw4FzDOea+i3yIL6WuVHX+sBvH7x+rxKUvZYBSfBLlnBXe1iUnM2F8w==", "id"=>"8"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mWord Destroy (6.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 35ms (ActiveRecord: 23.1ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:15 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:03:18 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0WwocKzSv1GATecF95i1JhLh/KXZIKdiz2abIVVoNHKThsVt0bxzlnwp44BihUCqKk10STsXurVbnLC5Lj9LrA==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 12:03:18.945623"], ["updated_at", "2021-02-08 12:03:18.945623"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (16.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 36ms (ActiveRecord: 17.9ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:18 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:03:22 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gCu/UHuMpd5Ix5fuwHod0GfvhcN8VPkiUltliKKo9UHCwVJNBuJpGbSjk2tVZ+hcX0MNL55j5PXGoU4Q2f+Knw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 34ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:03:22 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:07:59 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JrsNclunQ55A333ZI226OUIuktIIFxiKvMzlILp8q3FkUeBvJsmPWby7eVy2cE+1eoIaPuogBV0oNs64wSvUrw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 21ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:07:59 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:08:21 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqX9qoaBqZfoQEO8tm9DoZAw40qoAZkLyCs1Ip0nD2nUTxC3++9lUBQkRzkjcrYtqJxrpko2hNxc0R665nBwtw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 19ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:08:21 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (2.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (8.4ms)
+Started POST "/posts/create" for ::1 at 2021-02-08 21:08:21 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqX9qoaBqZfoQEO8tm9DoZAw40qoAZkLyCs1Ip0nD2nUTxC3++9lUBQkRzkjcrYtqJxrpko2hNxc0R665nBwtw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 15ms (ActiveRecord: 0.5ms)
+
+
+Completed 200 OK in 107ms (Views: 100.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:08:21 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:08:50 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5ZtDyMeAc5minfkm+qloMqjfKMZwwIb2Ty7vTQHLLE2nca7Vuu6/Xl75/aNvtJ2+kHOgKpL3myHb1MTVepxTkw==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2021-02-08 21:08:50 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:08:56 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:09:05 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fbg7yeY9FsQ3si4t/OaowXyZbi+F3/KjSSEZBFIhVXmQFZ+VcnP94YSto40N02de82spzKIig8sxblmlw1GAcQ==", "word"=>"boy", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "boy"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "boy"], ["created_at", "2021-02-08 12:09:05.178925"], ["updated_at", "2021-02-08 12:09:05.178925"], ["meaning", ""]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (17.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? AND "words"."id" != ? LIMIT ?[0m  [["word", "boy"], ["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 43ms (ActiveRecord: 19.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:09:05 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:09:28 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2eeImuzLesQuCR0/y9y+17M61ZJMzfkB3KnvwokwOgObDWWHkaW2A9JtGbpewUtbi5Zdfq765NZIU8Ra8mdF3Q==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 30ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:09:28 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:11:05 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SoZIvEz/h8wRdLzFFG21SI4DZlRSyH83JP+1AwblTRsIbKWhMZFLC+0QuECBcEDEtq/uuLD/YuCwBZ6bfbIyxQ==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:  </div>
+    10: <%end%>
+    11: <div class="container">
+    12:   <% @words.each do |i| %>
+    13:     <div class=post-index-word>
+    14:       <%=i.word%>
+    15:       <%=i.meaning%>
+  
+app/views/posts/index.html.erb:12:in `_app_views_posts_index_html_erb__175493422_120554720'
+app/controllers/posts_controller.rb:13:in `create'
+Started GET "/" for ::1 at 2021-02-08 21:12:16 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:16:14 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SoZIvEz/h8wRdLzFFG21SI4DZlRSyH83JP+1AwblTRsIbKWhMZFLC+0QuECBcEDEtq/uuLD/YuCwBZ6bfbIyxQ==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 31ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:16:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/posts/error"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/posts/create" for ::1 at 2021-02-08 21:17:37 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SoZIvEz/h8wRdLzFFG21SI4DZlRSyH83JP+1AwblTRsIbKWhMZFLC+0QuECBcEDEtq/uuLD/YuCwBZ6bfbIyxQ==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 32ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:17:38 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:17:40 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 48ms (Views: 43.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:17:45 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IjYnKSADe2+k5eMb20pyJioqRdGPGwb1HFrqeTGCPaunm4N1tE2QShf6brsqf725pdgCMqjmd51kFarYoPLoow==", "word"=>"order", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 20ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:17:45 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:17:46 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:17:48 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PeBi55CtmwvsCPrJqVZ54V4AKbMBg/KvNPE3JhEhHTu4Tca7BONwLl8Xd2lYY7Z+0fJuUCZ+g8dMvneHgFHIMw==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 21ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:17:48 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:17:50 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 58ms (Views: 54.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:18:13 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dwsSSSu4gLVhNx6MVDRf1bZ7a5wB3GeXbt9cyjCkm2nyprYVv/ZrkNIokyylAZBKOYksfyYhFv8WkBxrodROYQ==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 27ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:18:13 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:18:15 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 56ms (Views: 51.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:19:16 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nm0DK/T2gdbkjMhEZrWWg3DUbYga9Q846xHtslnOx5cbwKd3YLhq81eTReSXgFkc/yYqaz0IflCTXq0TyL4Snw==", "word"=>"", "meaning"=>""}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", ""], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 23ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:19:16 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:19:17 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:20:38 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5D+nb6vBIMNSOYnGAhJY7Kyq4oP5T3Sf2NyNd3UYy41hkgMzP4/L5uEmBGbzJ5dzI1ilYN6yBfegk83W5GgehQ==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/error
+Completed 302 Found in 20ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/posts/error" for ::1 at 2021-02-08 21:20:38 +0900
+Processing by PostsController#error as HTML
+  Rendering posts/error.html.erb within layouts/application
+  Rendered posts/error.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:20:40 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 65ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/13/destroy" for ::1 at 2021-02-08 21:20:42 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YT4TA7kZbdaL0URQth6Z1EfE72l3LvtgAeSPTSTpEp0j1P4exHehEXe1QNUjA2xYf2hnhZUZ5reVHqTVX75tQw==", "id"=>"13"}
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[36mWord Destroy (7.1ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 13]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (19.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 41ms (ActiveRecord: 27.1ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:20:42 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/create" for ::1 at 2021-02-08 21:20:46 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bPjw0/ckP5Giu4tbTnhE4ybGmGfjuTlIyor53LwJ60MuEh3OikrzVl7fj97bZbFvHmoQiwGOJJ9ecNJEx16UnQ==", "word"=>"order", "meaning"=>"命令する"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? LIMIT ?[0m  [["word", "order"], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("word", "created_at", "updated_at", "meaning") VALUES (?, ?, ?, ?)[0m  [["word", "order"], ["created_at", "2021-02-08 12:20:46.765212"], ["updated_at", "2021-02-08 12:20:46.765212"], ["meaning", "命令する"]]
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (16.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[36mWord Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "words" WHERE "words"."word" = ? AND "words"."id" != ? LIMIT ?[0m  [["word", "order"], ["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:9
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 45ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 21:20:46 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/14/destroy" for ::1 at 2021-02-08 22:35:14 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OClFmVIEQYP7LmZf1HaJK4B6CkeHho1Nkm2rRk2eOVx6w6iEL2qNRAdKYtpBa3ynuNaCq2WxkJoGl4DeNslGgg==", "id"=>"14"}
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[36mWord Destroy (7.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = ?[0m  [["id", 14]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (17.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:18
+Redirected to http://localhost:3000/posts/index
+Completed 302 Found in 39ms (ActiveRecord: 25.9ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-08 22:35:14 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:12
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 83ms (Views: 61.1ms | ActiveRecord: 0.3ms)
+
+
