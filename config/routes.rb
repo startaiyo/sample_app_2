@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   post "posts/:id/mistake" => "posts#mistake"
   post ":id/mistake" => "home#correct_reverse"
   post ":id/correct" => "home#mistake_reverse"
-  get "posts/update" => "posts#update"
+  get "posts/:id/edit" => "posts#edit"
+  post "posts/:id/edit_meaning" => "posts#edit_meaning"
 end

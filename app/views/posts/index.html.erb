@@ -1,24 +1,36 @@
-<%=form_tag("/posts/create") do%>
-<input type="text" name="word" placeholder="単語を入力">
-<input type="text" name="meaning" placeholder="意味を入力">
-<input type="submit" value="送信">
-<% end %>
-<% if @error_message%>
- <div class="form-error">
-  <%= @error_message%>
- </div>
-<%end%>
-<div class="container">
+<div class="index">
+  <div class="word-form">
+    <h2 class="heading">単語の登録</h2>
+    <%=form_tag("/posts/create") do%>
+      <input type="text" name="word" placeholder="単語を入力">
+      <input type="text" name="meaning" placeholder="意味を入力">
+      <input type="submit" value="送信">
+    <% end %>
+  </div>
+  <table class="container">
+    <h2 class="heading">単語一覧</h2>
+      <tr>
+        <th>単語</th>
+        <th>意味</th>
+        <th>正誤</th>
+        <th>正解</th>
+        <th>不正解</th>
+        <th>削除</th>
+        <th>編集</th>
+      </tr>
   <% @words.each do |i| %>
     <div class=post-index-word>
-      <%=i.word%>
-      <%=i.meaning%>
-      <%=i.judge%>
-      <%=link_to("〇","/posts/#{i.id}/correct",{method:"post"})%>
-      <%=link_to("×","/posts/#{i.id}/mistake",{method:"post"})%>
-      <%=link_to("削除","/posts/#{i.id}/destroy",{method:"post"})%>
+      <tr>
+        <td><%=i.word%></td>
+        <td><%=i.meaning%></td>
+        <td><%=i.judge%></td>
+        <td><%=link_to("〇","/posts/#{i.id}/correct",{method:"post"})%></td>
+        <td><%=link_to("×","/posts/#{i.id}/mistake",{method:"post"})%></td>
+        <td><%=link_to("削除","/posts/#{i.id}/destroy",{method:"post"})%></td>
+        <td><%=link_to("編集","/posts/#{i.id}/edit")%></td>
+      </tr>
     </div>
   <% end %>
-  <%=link_to("更新","/posts/update")%>
+  </table>
   <a href="/">トップに戻る</a>
 </div>

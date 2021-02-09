@@ -26,15 +26,24 @@ class PostsController < ApplicationController
     @word=Word.find_by(id:params[:id])
     @word.judge="〇"
     @word.save
+    redirect_to("/posts/index")
   end
 
   def mistake
     @word=Word.find_by(id:params[:id])
     @word.judge="×"
     @word.save
+    redirect_to("/posts/index")
   end
 
-  def update
+  def edit
+    @word=Word.find_by(id:params[:id])
+  end
+
+  def edit_meaning
+    @word=Word.find_by(id:params[:id])
+    @word.meaning= params[:meaning]
+    @word.save
     redirect_to("/posts/index")
   end
 end

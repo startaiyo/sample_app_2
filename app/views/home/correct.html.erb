@@ -1,11 +1,20 @@
-<h1>correct words</h1>
-<div class="container">
+<div class="correct">
+<h1 class="heading">正解した単語</h1>
+<table class="container">
+  <tr>
+    <th>単語</th>
+    <th>意味</th>
+    <th>×にする</th>
+    <th>削除</th>
+  </tr>
   <% @words.each do |i| %>
-    <div class=post-index-word>
-      <%=i.word%>
-      <%=i.meaning%>
-      <%=link_to("×","/#{i.id}/mistake",{method:"post"})%>
-      <%=link_to("削除","/posts/#{i.id}/destroy",{method:"post"})%>
-    </div>
+    <tr class=post-index-word>
+      <td><%=i.word%></td>
+      <td><%=i.meaning%></td>
+      <td><%=link_to("×","/#{i.id}/mistake",{method:"post"})%></td>
+      <td><%=link_to("削除","/posts/#{i.id}/destroy",{method:"post"})%></td>
+    </tr>
   <% end %>
+</table>
   <a href="/">トップに戻る</a>
+</div>

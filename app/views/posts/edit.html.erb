@@ -1,0 +1,6 @@
+<%=form_tag("/posts/#{@word.id}/edit_meaning") do%>
+<input type="text" name="word" value="<%=@word.word%>">
+<input type="text" name="meaning" placeholder="意味を入力">
+<input type="submit" value="送信">
+<% end %>
+<a href="/posts/index">単語一覧に戻る</a>
