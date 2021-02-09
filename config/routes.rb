@@ -9,4 +9,9 @@ Rails.application.routes.draw do
   post "posts/create" => "posts#create"
   post "posts/:id/destroy" => "posts#destroy"
   get "posts/error" =>"posts#error"
+  post "posts/:id/correct" => "posts#correct"
+  post "posts/:id/mistake" => "posts#mistake"
+  post ":id/mistake" => "home#correct_reverse"
+  post ":id/correct" => "home#mistake_reverse"
+  get "posts/update" => "posts#update"
 end

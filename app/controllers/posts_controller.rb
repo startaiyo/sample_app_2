@@ -21,4 +21,20 @@ class PostsController < ApplicationController
 
   def error
   end
+
+  def correct
+    @word=Word.find_by(id:params[:id])
+    @word.judge="〇"
+    @word.save
+  end
+
+  def mistake
+    @word=Word.find_by(id:params[:id])
+    @word.judge="×"
+    @word.save
+  end
+
+  def update
+    redirect_to("/posts/index")
+  end
 end
