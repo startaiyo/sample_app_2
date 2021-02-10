@@ -22,5 +22,6 @@ test:
 
 production:
   <<: *default
-  adaptor: postgresql
+  adapter: postgresql
   database: db/production.postgresql
+  pool: 5
