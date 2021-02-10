@@ -8996,3 +8996,39 @@ puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
 puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-02-10 22:28:36 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1215ms (Views: 1201.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/index" for ::1 at 2021-02-10 22:28:40 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mWord Load (0.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/views/posts/index.html.erb:21
+  Rendered posts/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 122ms (Views: 70.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/correct" for ::1 at 2021-02-10 22:28:43 +0900
+Processing by HomeController#correct as HTML
+  Rendering home/correct.html.erb within layouts/application
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words" WHERE "words"."judge" = ?[0m  [["judge", "〇"]]
+  ↳ app/views/home/correct.html.erb:10
+  Rendered home/correct.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 71ms (Views: 49.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/mistake" for ::1 at 2021-02-10 22:28:46 +0900
+Processing by HomeController#mistake as HTML
+  Rendering home/mistake.html.erb within layouts/application
+  [1m[36mWord Load (0.3ms)[0m  [1m[34mSELECT "words".* FROM "words" WHERE "words"."judge" = ?[0m  [["judge", "×"]]
+  ↳ app/views/home/mistake.html.erb:10
+  Rendered home/mistake.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 62ms (Views: 45.4ms | ActiveRecord: 0.3ms)
+
+
