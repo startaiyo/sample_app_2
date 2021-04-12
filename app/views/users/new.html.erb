@@ -1,6 +1,16 @@
-<%= form_tag("/create") do %>
-  <input type="text" name="name">
-  <input type="text" name="email">
-  <input type="text" name="password">
-  <button type ="submit">送信</button>
+<%= form_for @user do |f| %>
+  <p>
+  <%= f.label :name, "名前" %>
+  <%= f.text_field :name %>
+  </p>
+  <p>
+  <%= f.label :email, "メールアドレス" %>
+  <%= f.email_field :email %>
+  </p>
+  <p>
+  <%= f.label :password, "パスワード" %>
+  <%= f.password_field :password %>
+  </p>
+  <%= f.submit "登録" %>
 <% end %>
+<a href="/">top</a>

@@ -3,11 +3,11 @@ class HomeController < ApplicationController
   end
 
   def correct
-    @words=Word.where(judge:"〇")
+    @words=Word.where(judge:"〇",user_id:current_user.id)
   end
   
   def mistake
-    @words=Word.where(judge:"×")
+    @words=Word.where(judge:"×",user_id:current_user.id)
   end
 
   def correct_reverse
