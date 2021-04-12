@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
+
   get 'posts/index'
   get 'home/top'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get "/" => "home#top"
+  get "/login" => 'sessions#new'
+  post "/login" => "sessions#create"
+  get "/logout" => "sessions#destroy"
+  get "/signup" => "users#new"
+  post "/create" => "users#create"
   get "/correct" => "home#correct"
   get "/mistake" => "home#mistake"
   get "posts/index" => "posts#index"
