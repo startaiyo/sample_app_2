@@ -1,8 +1,14 @@
-<h1>ログイン</h1>
+<div class="text-center">
+<h2 class= "bg-warning">ログイン</h2>
 <%= form_for(:session, url: login_path) do |f| %>
+  <p>
   <%= f.label :email %>
   <%= f.email_field :email %>
+  </p><p>
   <%= f.label :password %>
   <%= f.password_field :password %>
-  <%= f.submit "Log in" %>
+  </p><button type="submit" class="btn btn-primary" method="POST">
+  Log in
+  </button>
 <% end %>
+</div>

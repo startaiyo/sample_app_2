@@ -1,3 +1,5 @@
+<div class="text-center">
+<h2 class="bg-warning">ユーザー登録フォーム</h2>
 <%= form_for @user do |f| %>
   <p>
   <%= f.label :name, "名前" %>
@@ -11,6 +13,9 @@
   <%= f.label :password, "パスワード" %>
   <%= f.password_field :password %>
   </p>
-  <%= f.submit "登録" %>
+  <button type="submit" class="btn btn-primary" method="POST">
+  登録
+  </button>
 <% end %>
-<a href="/">top</a>
+<a href="/">topへ戻る</a>
+</div>

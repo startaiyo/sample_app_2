@@ -1,6 +1,15 @@
-<%=form_tag("/posts/#{@word.id}/edit_meaning") do%>
-<input type="text" name="word" value="<%=@word.word%>">
-<input type="text" name="meaning" placeholder="意味を入力">
-<input type="submit" value="送信">
-<% end %>
+<div class="word-form">
+    <h2 class="heading">単語の登録</h2>
+    <%=form_tag("/posts/#{@word.id}/edit_meaning") do%>
+    
+    <div class="col">
+      <input type="text" name="word" value="<%=@word.word%>">
+    </div>
+    <div class="col">
+      <input type="text" name="meaning" placeholder="意味を入力">
+    </div>
+    <button type="submit" class ="btn btn-primary" method="POST">登録する</button>
+    
+    <% end %>
+</div>
 <a href="/posts/index">単語一覧に戻る</a>
