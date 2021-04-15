@@ -14,3 +14,15 @@
 @import "bootstrap";
 @import "home";
 @import "posts";
+@import "sessions";
+@import "users";
+body{
+    padding-top:80px;
+}
+h2 {
+    padding: 1rem 2rem;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+    background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  }

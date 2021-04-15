@@ -1,10 +1,17 @@
+
 <div class="index">
   <div class="word-form">
     <h2 class="heading">単語の登録</h2>
     <%=form_tag("/posts/create") do%>
+    
+    <div class="col">
       <input type="text" name="word" placeholder="単語を入力">
+    </div>
+    <div class="col">
       <input type="text" name="meaning" placeholder="意味を入力">
-      <input type="submit" value="送信">
+    </div>
+    <button type="submit" class ="btn btn-primary">登録する</button>
+    
     <% end %>
   </div>
   <table class="container">

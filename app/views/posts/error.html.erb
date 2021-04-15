@@ -1,2 +1,7 @@
-<p>新規単語を入力して下さい。</p>
-<%=link_to("戻る","/posts/index")%>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>既に登録されています!</strong> 別の単語を登録してください
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<%=link_to("登録画面に戻る","/posts/index")%>

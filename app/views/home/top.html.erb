@@ -1,22 +1,10 @@
 
-<header>
-  <div class="title">
-    <h1>英単語暗記アプリ</h1>
-  </div>
-  <% if logged_in? %>
-    <%= render 'home/logged_in' %>
-  <% else %>
-    <%= render 'home/not_logged_in' %>
-  <% end %>
-  
-
-</header>
 <div class ="main-container">
   <div class="explanation">
     <% if logged_in? %>
     <h1>ようこそ<%=current_user.name%>さん</h1>
     <%end%>
-    <h2><span class ="app_exp">このアプリでできること</span></h2>
+    <h3><span class ="app_exp">このアプリでできること</span></h3>
     <p>単語帳で出てきた単語を登録できます。</p>
     <p>さらにそれらの単語を正解した単語、間違えた単語に分類することができます。</p>
   </div>

@@ -1,4 +1,19 @@
-<div class="reference">
-<%= link_to "ログイン", login_path %>
-<a href="/signup">新規登録</a>
-</div>
+<nav class="navbar navbar-light bg-warning fixed-top reference">
+    <!-- タイトル -->
+    <a class="text-danger title1" href="/">英単語暗記アプリ</a>
+    <!-- ハンバーガーメニュー -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- ナビゲーションメニュー -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class ="nav-link" href="/login">ログイン</a>
+        </li>
+        <li class="nav-item">
+          <a class ="nav-link" href="/signup">新規登録</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
