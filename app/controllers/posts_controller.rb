@@ -46,4 +46,9 @@ class PostsController < ApplicationController
     @word.save
     redirect_to("/posts/index")
   end
+
+  def quiz
+    @word=Word.find_by(id:rand(1..Word.count))
+    render :json => {word: @word}
+  end
 end
