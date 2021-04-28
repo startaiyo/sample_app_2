@@ -21,4 +21,5 @@ Rails.application.routes.draw do
   post ":id/correct" => "home#mistake_reverse"
   get "posts/:id/edit" => "posts#edit"
   post "posts/:id/edit_meaning" => "posts#edit_meaning"
+  get "posts/quiz" => "posts#quiz"
 end
