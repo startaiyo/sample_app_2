@@ -23,4 +23,8 @@ class HomeController < ApplicationController
     @word.save
     redirect_to("/mistake")
   end
+
+  def wordtest
+    redirect_to("http://localhost:3001/")
+  end
 end
