@@ -22,4 +22,7 @@ Rails.application.routes.draw do
   get "posts/:id/edit" => "posts#edit"
   post "posts/:id/edit_meaning" => "posts#edit_meaning"
   get "posts/quiz" => "posts#quiz"
+  put "posts/quiz/c" => "posts#ans_correct"
+  put "posts/quiz/m" => "posts#ans_mistake"
+  get "/wordtest" => "home#wordtest"
 end
