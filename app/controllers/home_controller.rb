@@ -25,6 +25,6 @@ class HomeController < ApplicationController
   end
 
   def wordtest
-    redirect_to("http://localhost:3001/")
+    redirect_to("http://localhost:3001/?user_id=#{current_user.id}")
   end
 end
