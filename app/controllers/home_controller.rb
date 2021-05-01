@@ -25,6 +25,6 @@ class HomeController < ApplicationController
   end
 
   def wordtest
-    redirect_to("http://localhost:3001/?user_id=#{current_user.id}")
+    redirect_to("https://wordquizapp.vercel.app/?user_id=#{current_user.id}")
   end
 end
