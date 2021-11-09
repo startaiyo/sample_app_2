@@ -12,3 +12,6 @@
 (1)Ruby on Rails…データベースへのCRUD機能、ページ遷移。  
 (2)Heroku…ネット上に公開するためのデプロイ先。  
 (3)HTML, CSS…各ページの見た目部分の作成。
+
+* url
+https://startaiyo-site.herokuapp.com/
